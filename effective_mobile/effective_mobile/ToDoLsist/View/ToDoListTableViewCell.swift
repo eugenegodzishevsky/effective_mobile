@@ -12,7 +12,6 @@ class ToDoTableViewCell: UITableViewCell {
 
     static let identifier = "ToDoTableViewCell"
 
-    // UI components
     private let titleLabel = UILabel.makeLabel(fontSize: 18, weight: .bold)
     private let descriptionLabel = UILabel.makeLabel(fontSize: 14, weight: .regular)
     private let dateLabel = UILabel.makeLabel(fontSize: 12, weight: .light)
@@ -26,7 +25,6 @@ class ToDoTableViewCell: UITableViewCell {
     
     private var currentToDoItem: ToDoItem?
 
-    // Static DateFormatter to reuse
     private static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateStyle = .short
@@ -45,7 +43,6 @@ class ToDoTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
-    // Configure cell with ToDo data
     func configure(with todo: ToDoItem) {
         currentToDoItem = todo
         titleLabel.text = todo.title

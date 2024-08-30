@@ -94,7 +94,6 @@ class ToDoListInteractor: ToDoListInteractorInput {
             case .success(_):
                 UserDefaults.standard.set(true, forKey: "hasFetchedToDos")
                 self.outputOnMain {
-//                    self.output?.didFetchToDos(todos)
                     self.output?.didUpdateToDo()
                 }
             case .failure(let error):

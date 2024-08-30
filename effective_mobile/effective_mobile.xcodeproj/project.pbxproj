@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DA0565D32C80813B0006392D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0565D22C80813B0006392D /* NetworkManager.swift */; };
+		DA0565DB2C815B720006392D /* effective_mobileCoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0565DA2C815B720006392D /* effective_mobileCoreDataManagerTests.swift */; };
+		DA0565DD2C815C3D0006392D /* effective_mobileNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0565DC2C815C3D0006392D /* effective_mobileNetworkManagerTests.swift */; };
+		DA0565DF2C815E560006392D /* effective_mobileToDoListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0565DE2C815E560006392D /* effective_mobileToDoListPresenterTests.swift */; };
 		DA4A371C2C7ED05C0065427C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A371B2C7ED05C0065427C /* AppDelegate.swift */; };
 		DA4A371E2C7ED05C0065427C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A371D2C7ED05C0065427C /* SceneDelegate.swift */; };
 		DA4A37262C7ED05C0065427C /* effective_mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA4A37242C7ED05C0065427C /* effective_mobile.xcdatamodeld */; };
@@ -52,6 +55,9 @@
 
 /* Begin PBXFileReference section */
 		DA0565D22C80813B0006392D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DA0565DA2C815B720006392D /* effective_mobileCoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effective_mobileCoreDataManagerTests.swift; sourceTree = "<group>"; };
+		DA0565DC2C815C3D0006392D /* effective_mobileNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effective_mobileNetworkManagerTests.swift; sourceTree = "<group>"; };
+		DA0565DE2C815E560006392D /* effective_mobileToDoListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effective_mobileToDoListPresenterTests.swift; sourceTree = "<group>"; };
 		DA4A37182C7ED05C0065427C /* effective_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = effective_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4A371B2C7ED05C0065427C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA4A371D2C7ED05C0065427C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				DA4A37352C7ED05E0065427C /* effective_mobileTests.swift */,
+				DA0565DA2C815B720006392D /* effective_mobileCoreDataManagerTests.swift */,
+				DA0565DC2C815C3D0006392D /* effective_mobileNetworkManagerTests.swift */,
+				DA0565DE2C815E560006392D /* effective_mobileToDoListPresenterTests.swift */,
 			);
 			path = effective_mobileTests;
 			sourceTree = "<group>";
@@ -460,6 +469,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0565DF2C815E560006392D /* effective_mobileToDoListPresenterTests.swift in Sources */,
+				DA0565DB2C815B720006392D /* effective_mobileCoreDataManagerTests.swift in Sources */,
+				DA0565DD2C815C3D0006392D /* effective_mobileNetworkManagerTests.swift in Sources */,
 				DA4A37362C7ED05E0065427C /* effective_mobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
